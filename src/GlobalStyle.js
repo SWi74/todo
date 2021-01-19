@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components"
 const GlobalStyle = createGlobalStyle`
   html {
     font-family: "Noto Sans", sans-serif;
-    color: ${props => props.theme.colors.dark};
+    color: ${props => props.theme.colors.light};
     box-sizing: border-box;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body {
     margin: 0;
-    background-color: ${props => props.theme.colors.lightbg};
+    background-color: ${props => props.theme.colors.dark};
   }
   ::-moz-focus-inner {
     border: 0;
