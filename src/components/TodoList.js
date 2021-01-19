@@ -1,9 +1,12 @@
 import React from "react"
 
+import { List } from "./wrappers";
+import Item from "./Item";
+
 const TodoList = () => (
-    <div>
-        <div>asd</div>
-    </div>
+    <List>
+        <Item />
+    </List>
 )
 
 export default TodoList

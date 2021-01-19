@@ -1,9 +1,11 @@
 import React from "react"
 
+import { Flex } from "./wrappers";
+
 const TodoCount = () => (
-    <div>
+    <Flex>
         <div>1</div>
-    </div>
+    </Flex>
 )
 
 export default TodoCount
